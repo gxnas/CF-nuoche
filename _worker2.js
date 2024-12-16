@@ -4,8 +4,8 @@ addEventListener('fetch', event => {
 
 const cooldownPeriod = 7000; 
 let lastNotificationTime = 0;
-const wxpusherAppToken = 'AT_xxx';
-const wxpusherUIDs = ['UID_xxx'];
+const wxpusherAppToken = 'AT_xxx';// Wxpusher APP Token
+const wxpusherUIDs = ['UID_xxx'];// 车主的UIDs
 
 async function handleRequest(request) {
   const url = new URL(request.url);
