@@ -3,8 +3,8 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
-  const wxpusherAppToken = 'AT_vAxWMmK123UyvrBZszr123fWeGqW1e17' // Wxpusher APP Token
-  const wxpusherUIDs = ['UID_x5dZ9X3P123VOE3ttPvfX12341xU'] // 车主的UIDs
+  const wxpusherAppToken = 'AT*******************************17' // Wxpusher APP Token
+  const wxpusherUIDs = ['UID**************************1xU'] // 车主的UIDs
 
   const htmlContent = `
     <!DOCTYPE html>
