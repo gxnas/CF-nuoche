@@ -6,4 +6,4 @@
 
 #### 建议使用severless，可以使用Cloudflare的Workers（免费 -- 就是国内访问需要自己买个域名）
 
-#### 建议把apptoken和uid加密下，以免泄露
+#### 登录wxpusher(https://wxpusher.zjiecode.com/admin/login)，获取APP Token和uid，建议在程序中把APP Token和uid加密下，以免泄露
